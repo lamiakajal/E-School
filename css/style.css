@@ -1,0 +1,244 @@
+/* google fonts linking here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+
+/* common css start */
+:root {
+  --black: #000000;
+  --green: #21b573;
+  --red: #fd511a;
+  --bgg: #f0fff0;
+  --fff: #ffffff;
+
+  --pop: "Poppins", sans-serif;
+  --rob: "Roboto", sans-serif;
+}
+body {
+  font-family: var(--pop);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--black);
+}
+/* common css end */
+
+/* Header Section Start Here */
+header {
+  padding: 15px 0;
+  background-color: var(--bgg);
+}
+.c-nav {
+}
+.logo {
+}
+.menu {
+}
+.menu ul li a {
+  padding: 0 20px !important;
+  color: var(--black);
+}
+.menu ul li a:hover {
+  color: var(--red);
+}
+.btn-cm {
+  background-color: var(--green);
+  border-radius: 33px;
+  font-family: var(--rob);
+  color: var(--fff);
+  border: 0;
+}
+.btn-sign {
+  margin-left: 15px;
+  padding: 12px 28px;
+}
+.btn-cm:hover {
+  background-color: var(--red);
+  color: var(--fff);
+}
+.btn-cm:active {
+  background-color: var(--red) !important;
+  color: var(--fff) !important;
+}
+/* Header Section End Here */
+
+/* Banner Section Start Here */
+.banner {
+  padding-bottom: 65px;
+  background-color: var(--bgg);
+}
+.b-text {
+}
+.b-p1 {
+  color: var(--red);
+}
+.b-h1 {
+  margin: 10px 45px 20px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 70px;
+  color: var(--black);
+}
+.b-h1 span {
+  color: var(--green);
+}
+.b-p2 {
+  line-height: 36px;
+}
+.btn-get {
+  margin-top: 15px;
+  padding: 12px 36px;
+}
+.b-img {
+}
+/* Banner Section End Here */
+
+/* Feature Section Start Here */
+.feature {
+}
+.p-bottom {
+  padding-bottom: 100px;
+}
+.f-item {
+  margin: 45px 0 0;
+  padding: 55px 0 50px;
+  background-color: #f8fffb;
+  border-radius: 10px;
+  transition: 0.33s linear;
+}
+.f-img {
+  width: 75px;
+  height: 80px;
+}
+.f-h2 {
+  margin: 20px 0 0;
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--black);
+}
+.f-p {
+}
+.f-item:hover {
+  background-color: var(--fff);
+  box-shadow: 0px 20px 40px 0px #0000001a;
+}
+/* Feature Section End Here */
+/* Course Section Start Here */
+.course {
+}
+.co-h1 {
+}
+.co-h1 h1 {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--black);
+}
+.co-item {
+  margin: 60px 0 0;
+  border-radius: 10px;
+  box-shadow: 0px 10px 40px 0px #0000001a;
+  padding: 25px 20px 30px;
+  transition: 0.33s linear;
+}
+.co-img img {
+  border-radius: 11px;
+}
+.co-h2 {
+  margin: 20px 0 5px;
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--black);
+}
+.co-p {
+}
+.co-btn {
+  margin: 20px 0 35px;
+  padding: 8px 28px;
+}
+/* course footer */
+.co-footer {
+}
+.co-left {
+}
+.co-right {
+}
+.cli:not(:last-child) {
+  margin-right: 6px;
+}
+.co-left ul li img,
+.co-right ul li img {
+}
+.co-left ul li span,
+.co-right ul li span {
+  font-weight: 500;
+}
+
+.co-item:hover {
+  background-color: #f8fffb;
+}
+/* Course Section End Here */
+
+/* Testimonial Section Start Here */
+.testimoni {
+}
+.t-item {
+  margin-top: 60px;
+}
+.t-img {
+}
+.t-img img {
+  width: 100%;
+}
+.t-text {
+}
+.t-text p {
+}
+/* Testimonial Section End Here */
+
+/* Footer Top Section Start Here */
+.footer-top {
+  padding: 55px 0 55px;
+  background-color: #282531;
+}
+.ft-details {
+  padding-right: 120px;
+}
+.ft-details p {
+  color: var(--fff);
+  line-height: 30px;
+}
+.ft-links {
+}
+.ft-links h2 {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--fff);
+  line-height: 30px;
+}
+.ft-links ul li a {
+  margin-bottom: 8px;
+  display: block;
+  color: var(--fff);
+  text-decoration: none;
+}
+.ft-links ul li a:hover {
+  color: var(--red);
+}
+/* Footer Top Section End Here */
+
+/* Footer Section Start Here */
+footer {
+  padding: 20px 0 30px;
+  background-color: #282531;
+}
+footer p {
+  color: var(--fff);
+  line-height: 30px;
+}
+footer p a {
+  color: var(--fff);
+  text-decoration: none;
+}
+footer p a:hover {
+  color: var(--red);
+}
+/* Footer Section End Here */

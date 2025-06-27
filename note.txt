@@ -1,0 +1,42 @@
+color ====
+	black - #000000
+	green - #21B573
+	red - #FD511A
+
+font-family ===
+	"Poppins", sans-serif;
+    "Roboto", sans-serif;
+
+section - top=bottom - padding
+100
+80
+60
+
+content size
+alignment
+order
+spacing
+display
+
+
+			xx1-x1-1g		md		sm-col
+header====
+
+banner====
+padding 		65			65		60
+
+h1				48			35		28
+
+
+feature====
+padding bottom	100			80		60
+
+mt				45			40		30
+
+h2				24			24		20
+
+
+course====
+h1 				36			30		28
+
+mt				60			30		30
